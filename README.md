@@ -1,2 +1,3 @@
 # LibnotifyBinding
-An FFI binding to Gnome's libnotify for Pharo.
+
+This project is a fork of [the squeak version](http://www.squeaksource.com/@nMFpH6GLohoPbUBl/s8cDfr35) modified to use the Pharo unified FFI API.
