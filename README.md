@@ -26,3 +26,42 @@ notification := LBNotification
 notification show.
 LBLibnotify uninit.
 ~~~
+
+## Functions supported yet
+
+### notify
+
+| libnotify              | LBLibnotification |
+|:-----------------------|:------------------|
+| notify_init            | #notifyInit: |
+| notify_uninit          | #notifyUninit |
+| notify_is_initted      | #notifyIsInitted |
+| notify_get_app_name    | #notifyGetAppName |
+| notify_set_app_name    | #notifySetAppName: |
+| notify_get_server_caps | *Not supported yet* |
+
+### NotifyNotification
+
+| libnotify                                 | LBLibnotify |
+|:------------------------------------------|:---------------------------------------------|
+| notify_notification_new                   | #notificationNewSummary:message:icon:attach: |
+| notify_notification_update                | #notificationUpdate:summary:message:icon: |
+| notify_notification_show                  | #notificationShow:error: |
+| notify_notification_set_app_name          | *Not supported yet* |
+| notify_notification_set_timeout           | #notificationSet:timeout: |
+| notify_notification_set_category          | #notificationSet:category: |
+| notify_notification_set_urgency           | #notificationSet:urgency: |
+| notify_notification_set_icon_from_pixbuf  | *Not supported yet* |
+| notify_notification_set_image_from_pixbuf | *Not supported yet* |
+| notify_notification_set_hint              | *Not supported yet* |
+| notify_notification_set_hint_int32        | *Not supported* |
+| notify_notification_set_hint_uint32       | *Not supported* |
+| notify_notification_set_hint_double       | *Not supported* |
+| notify_notification_set_hint_string       | *Not supported* |
+| notify_notification_set_hint_byte         | *Not supported* |
+| notify_notification_set_hint_byte_array   | *Not supported* |
+| notify_notification_clear_hints           | *Not supported yet* |
+| notify_notification_add_action            | *Not supported yet* |
+| notify_notification_clear_actions         | *Not supported yet* |
+| notify_notification_close                 | #notificationClose:error: |
+| notify_notification_get_closed_reason     | *Not supported yet* |
