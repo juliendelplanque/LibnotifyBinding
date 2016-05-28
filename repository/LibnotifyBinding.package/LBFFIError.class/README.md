@@ -1,0 +1,1 @@
+I am the exception raised when an FFI call generated an error.

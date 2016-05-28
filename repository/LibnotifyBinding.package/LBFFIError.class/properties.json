@@ -1,0 +1,14 @@
+{
+	"category" : "LibnotifyBinding",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/28/2016 18:31",
+	"instvars" : [
+		 ],
+	"name" : "LBFFIError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
