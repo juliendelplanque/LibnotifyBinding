@@ -15,7 +15,7 @@ Metacello new
 ~~~
 
 ## Dependency(ies)
-To use this library you need to install [libnotify 0.7.6](https://developer.gnome.org/libnotify/) on your system.
+To use this package you need to install [libnotify 0.7.6](https://developer.gnome.org/libnotify/) on your system.
 
 ## Simple example
 ~~~
