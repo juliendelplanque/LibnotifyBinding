@@ -1,6 +1,7 @@
 # LibnotifyBinding
 
-This project is a fork of [the squeak version](http://www.squeaksource.com/@nMFpH6GLohoPbUBl/s8cDfr35) modified to use the Pharo unified FFI API.
+This project is a fork of [the squeak version](http://www.squeaksource.com/libnotify.html) modified to use the Pharo unified FFI API.
+It also have been updated to match the specification of [libnotify 0.7.6](https://developer.gnome.org/libnotify/) (the original implementation for Squeak was not up-to-date with this specification).
 
 ## Install
 Simply run this script:
