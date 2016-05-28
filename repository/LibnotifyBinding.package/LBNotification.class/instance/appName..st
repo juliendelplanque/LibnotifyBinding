@@ -1,3 +1,3 @@
 accessing-app name
 appName: aString
-	^ self libnotify notification: self setAppName: aString
+	^ self libnotify notificationSet: self appName: aString
