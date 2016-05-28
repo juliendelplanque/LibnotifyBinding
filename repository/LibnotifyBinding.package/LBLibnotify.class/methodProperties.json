@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"ffiBindingOf:" : "JulienDelplanque 5/28/2016 11:54",
+		"initialize" : "JulienDelplanque 5/28/2016 12:05",
+		"initializeTypeMap" : "JulienDelplanque 5/28/2016 12:33" },
+	"instance" : {
+		"expiresDefault" : "JulienDelplanque 5/28/2016 12:03",
+		"expiresNever" : "JulienDelplanque 5/28/2016 12:03",
+		"gFree:" : "JulienDelplanque 5/28/2016 11:56",
+		"notificationClearActions:" : "JulienDelplanque 5/28/2016 12:27",
+		"notificationClearHints:" : "JulienDelplanque 5/28/2016 12:27",
+		"notificationClose:error:" : "JulienDelplanque 5/28/2016 12:27",
+		"notificationNewSummary:message:icon:attach:" : "JulienDelplanque 5/28/2016 12:31",
+		"notificationSet:category:" : "JulienDelplanque 5/28/2016 12:28",
+		"notificationSet:timeout:" : "JulienDelplanque 5/28/2016 12:28",
+		"notificationSet:urgency:" : "JulienDelplanque 5/28/2016 12:26",
+		"notificationShow:error:" : "JulienDelplanque 5/28/2016 12:26",
+		"notificationUpdate:summary:message:icon:" : "JulienDelplanque 5/28/2016 12:26",
+		"notifyGetAppName" : "JulienDelplanque 5/28/2016 12:46",
+		"notifyInit:" : "JulienDelplanque 5/28/2016 12:26",
+		"notifyIsInitted" : "JulienDelplanque 5/28/2016 12:26",
+		"notifySetAppName:" : "JulienDelplanque 5/28/2016 13:38",
+		"notifyUninit" : "JulienDelplanque 5/28/2016 12:26",
+		"unixModuleName" : "JulienDelplanque 5/28/2016 12:24",
+		"urgencyCritical" : "JulienDelplanque 5/28/2016 12:03",
+		"urgencyLow" : "JulienDelplanque 5/28/2016 12:03",
+		"urgencyNormal" : "JulienDelplanque 5/28/2016 12:03" } }

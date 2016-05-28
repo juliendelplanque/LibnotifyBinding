@@ -1,0 +1,3 @@
+accessing-urgency
+beCritical
+	self setUrgency: LBLibnotify uniqueInstance urgencyCritical

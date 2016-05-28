@@ -1,0 +1,1 @@
+I hold the binding to libnotify in my class side.

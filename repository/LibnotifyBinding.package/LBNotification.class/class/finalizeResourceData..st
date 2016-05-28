@@ -1,0 +1,3 @@
+finalization
+finalizeResourceData: resourceData
+	LBLibnotify uniqueInstance gFree: resourceData

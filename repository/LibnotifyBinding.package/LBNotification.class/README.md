@@ -1,0 +1,1 @@
+I am the Pharo representation of a libnotify's notification.
