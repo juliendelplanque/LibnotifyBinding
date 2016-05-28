@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfLibnotifyBinding",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfLibnotifyBinding",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
