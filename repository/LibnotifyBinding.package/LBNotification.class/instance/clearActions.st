@@ -1,3 +1,0 @@
-private
-clearActions
-	^LBLibnotify uniqueInstance notificationClearActions: self

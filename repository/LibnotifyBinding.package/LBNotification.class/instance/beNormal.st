@@ -1,3 +1,3 @@
 accessing-urgency
 beNormal
-	self setUrgency: LBLibnotify uniqueInstance urgencyNormal
+	self setUrgency: self libnotify urgencyNormal

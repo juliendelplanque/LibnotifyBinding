@@ -1,3 +1,3 @@
 actions
 show
-	^LBLibnotify uniqueInstance notificationShow: self error: nil
+	^ self libnotify notificationShow: self error: nil

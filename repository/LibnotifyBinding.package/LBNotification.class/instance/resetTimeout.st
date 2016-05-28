@@ -1,3 +1,3 @@
 accessing-timeout
 resetTimeout
-	self timeout: LBLibnotify uniqueInstance expiresDefault
+	self timeout: self libnotify expiresDefault

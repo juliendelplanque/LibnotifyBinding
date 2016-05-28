@@ -1,3 +1,3 @@
 accessing-timeout
 timeout: seconds
-	LBLibnotify uniqueInstance notificationSet: self timeout: seconds
+	self libnotify notificationSet: self timeout: seconds

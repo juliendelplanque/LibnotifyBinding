@@ -1,0 +1,3 @@
+accessing
+libnotify
+	^ LBLibnotify uniqueInstance

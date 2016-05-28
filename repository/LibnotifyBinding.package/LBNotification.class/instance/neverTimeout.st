@@ -1,3 +1,3 @@
 accessing-timeout
 neverTimeout
-	self timeout: LBLibnotify uniqueInstance expiresNever
+	self timeout: self libnotify expiresNever
