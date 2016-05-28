@@ -47,7 +47,7 @@ LBLibnotify uninit.
 | notify_notification_new                   | #notificationNewSummary:message:icon:attach: |
 | notify_notification_update                | #notificationUpdate:summary:message:icon: |
 | notify_notification_show                  | #notificationShow:error: |
-| notify_notification_set_app_name          | *Not supported yet* |
+| notify_notification_set_app_name          | #notification:setAppName: |
 | notify_notification_set_timeout           | #notificationSet:timeout: |
 | notify_notification_set_category          | #notificationSet:category: |
 | notify_notification_set_urgency           | #notificationSet:urgency: |
