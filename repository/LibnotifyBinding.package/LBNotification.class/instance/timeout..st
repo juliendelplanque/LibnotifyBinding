@@ -1,3 +1,3 @@
 accessing-timeout
-timeout: seconds
-	self libnotify notificationSet: self timeout: seconds
+timeout: milliSeconds
+	self libnotify notificationSet: self timeout: milliSeconds
