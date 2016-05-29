@@ -19,12 +19,10 @@ To use this package you need to install [libnotify 0.7.6](https://developer.gnom
 
 ## Simple example
 ~~~
-LBLibnotify uniqueInstance notifyInit: 'Pharo'.
 notification := LBNotification
                     summary: 'libnotify for Pharo works'
                     message: 'As you see this message and the image has not crashed. libnotify for Pharo obviously works'.
 notification show.
-LBLibnotify uninit.
 ~~~
 
 ## Functions supported yet
