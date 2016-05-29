@@ -1,5 +1,5 @@
 notification
-notificationUpdate: aNotification summary: aSummaryString message: aMessageString icon: iconNameOrFilePath
+notificationUpdate: aNotification summary: aSummaryString message: aMessageString icon: anIconString
 	"Updates the notification text and icon. This won't send the update out and display it on the screen. For that, you will need to call notify_notification_show().
 	
 	aNotification : The notification to update.
@@ -9,4 +9,4 @@ notificationUpdate: aNotification summary: aSummaryString message: aMessageStrin
 	Returns : true, unless an invalid parameter was passed."
 	
 	
-	^ self ffiCall: #(gboolean notify_notification_update (LBNotification aNotification, String aSummaryString, String aMessageString, String iconNameOrFilePath))
+	^ self ffiCall: #(gboolean notify_notification_update (LBNotification aNotification, String aSummaryString, String aMessageString, String anIconString))

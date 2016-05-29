@@ -1,0 +1,3 @@
+*LibnotifyBinding
+asLibnotifyString
+	^ self
