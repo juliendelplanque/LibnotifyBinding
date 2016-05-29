@@ -1,3 +1,3 @@
 accessing-timeout
-resetTimeout
+defaultTimeout
 	self timeout: self libnotify expiresDefault
