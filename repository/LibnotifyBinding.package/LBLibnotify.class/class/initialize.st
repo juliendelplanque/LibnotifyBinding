@@ -1,4 +1,7 @@
 initialization
 initialize
 	super initialize.
-	self initializeTypeMap 
+	self initializeTypeMap.
+	SessionManager default
+		registerUserClassNamed: self name.
+	self ensureLibnotifyIsInitialized
