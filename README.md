@@ -36,7 +36,7 @@ notification show.
 | notify_is_initted      | #notifyIsInitted |
 | notify_get_app_name    | #notifyGetAppName |
 | notify_set_app_name    | #notifySetAppName: |
-| notify_get_server_caps | * Not supported yet* |
+| notify_get_server_caps | *Not supported yet* |
 | notify_get_server_info | #notifyGetServerInfoName:vendor:version:specVersion: |
 
 ### NotifyNotification
