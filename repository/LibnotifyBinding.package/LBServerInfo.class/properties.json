@@ -4,13 +4,16 @@
 		 ],
 	"classtraitcomposition" : "LBLibnotifyUser classTrait",
 	"classvars" : [
-		 ],
-	"commentStamp" : "JulienDelplanque 5/25/2016 21:17",
+		"UniqueInstance" ],
+	"commentStamp" : "JulienDelplanque 5/30/2016 12:33",
 	"instvars" : [
-		 ],
-	"name" : "LBNotification",
+		"serverName",
+		"vendorName",
+		"version",
+		"specificationVersion" ],
+	"name" : "LBServerInfo",
 	"pools" : [
 		 ],
-	"super" : "FFIExternalObject",
+	"super" : "Object",
 	"traitcomposition" : "LBLibnotifyUser",
 	"type" : "normal" }

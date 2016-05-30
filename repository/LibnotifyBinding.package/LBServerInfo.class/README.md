@@ -1,0 +1,1 @@
+I retreive and hold server info.

@@ -1,0 +1,1 @@
+I am defining behavior for object using LBLibnotify.

@@ -2,6 +2,7 @@
 	"class" : {
 		"example" : "JulienDelplanque 5/29/2016 21:47",
 		"finalizeResourceData:" : "JulienDelplanque 5/28/2016 12:01",
+		"serverInfo" : "JulienDelplanque 5/30/2016 12:37",
 		"summary:message:" : "pmm 11/12/2006 20:22",
 		"summary:message:icon:" : "JulienDelplanque 5/29/2016 21:27" },
 	"instance" : {
@@ -12,7 +13,6 @@
 		"category:" : "JulienDelplanque 5/28/2016 16:17",
 		"close" : "JulienDelplanque 5/28/2016 18:34",
 		"defaultTimeout" : "JulienDelplanque 5/29/2016 21:49",
-		"libnotify" : "JulienDelplanque 5/28/2016 16:17",
 		"neverTimeout" : "JulienDelplanque 5/28/2016 16:17",
 		"setUrgency:" : "JulienDelplanque 5/28/2016 16:19",
 		"show" : "JulienDelplanque 5/28/2016 18:35",
