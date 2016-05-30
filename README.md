@@ -27,6 +27,8 @@ notification show.
 
 ## High level interface
 ### LBLibnotifyUser trait
+This trait defines the message `#libnotify` on both instance and class side which returns the unique instance of LBLibnotify.
+It is used by **LBNotification** and **LBServerInfo**.
 
 ### LBServerInfo
 #### Instance side
