@@ -1,0 +1,1 @@
+Only override #inform: from MorphicUIManager to display the notification using LibnotifyBinding.

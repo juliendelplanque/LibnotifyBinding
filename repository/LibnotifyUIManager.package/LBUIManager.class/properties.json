@@ -1,0 +1,14 @@
+{
+	"category" : "LibnotifyUIManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/30/2016 17:38",
+	"instvars" : [
+		 ],
+	"name" : "LBUIManager",
+	"pools" : [
+		 ],
+	"super" : "MorphicUIManager",
+	"type" : "normal" }
