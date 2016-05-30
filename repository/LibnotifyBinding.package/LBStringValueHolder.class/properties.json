@@ -1,0 +1,14 @@
+{
+	"category" : "LibnotifyBinding",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/30/2016 11:43",
+	"instvars" : [
+		 ],
+	"name" : "LBStringValueHolder",
+	"pools" : [
+		 ],
+	"super" : "FFIExternalValueHolder",
+	"type" : "normal" }
