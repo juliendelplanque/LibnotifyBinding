@@ -25,7 +25,38 @@ notification := LBNotification
 notification show.
 ~~~
 
-## Functions supported yet
+## High level interface
+### LBLibnotifyUser trait
+
+### LBServerInfo
+| Message | Purpose |
+|:--------|:--------|
+| #refresh | Refresh server info. |
+| #serverName | Return the server name. |
+| #specificationVersion | Return the specification version. |
+| #vendorName | Return the vendor name. |
+| #version | Return the server version. |
+
+### LBNotification
+| Message | Purpose |
+|:--------|:--------|
+| #appName: | Set the application name for the notification. **If not used, 'Pharo' is the application name.** |
+| #beCritical | Set the notification urgency to 'critical'. |
+| #beLow | Set the notification urgency to 'low'. |
+| #beNormal | Set the notification urgency to 'normal'. |
+| #category: | Set the notification category. |
+| #close | Close the notification. |
+| #defaultTimeout | Set the notification timeout to the default time. |
+| #neverTimeout | Set the notification to never timeout. |
+| #show | Show the notification. |
+| #timeout: | Set the timeout of the notification. **The parameter must be a Duration.** |
+| #updateSummary:message: | Update the notification. **It does not display the update automatically, #refresh must be send after the update.** |
+| #updateSummary:message:icon: | Update the notification. **It does not display the update automatically, #refresh must be send after the update.** |
+
+
+## Low level functions binding
+Here is a list of the libnotify functions and their equivalent in LBLibnotification object.
+Those marked as *deprecated* will not be implemented since they are deprecated in libnotify specification.
 
 ### notify
 
