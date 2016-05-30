@@ -4,5 +4,5 @@ summary: aSummaryString message: aMessageString icon: anIconNameOrFilePath
 	^ LBLibnotify uniqueInstance
 		notificationNewSummary: aSummaryString
 		message: aMessageString
-		icon: anIconNameOrFilePath asLibnotifyString
+		icon: (anIconNameOrFilePath ifNotNil: [ anIconNameOrFilePath asLibnotifyString ])
 		attach: nil
