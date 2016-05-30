@@ -5,11 +5,12 @@ refresh
 	vendorHolder := LBStringValueHolder new.
 	versionHolder := LBStringValueHolder new.
 	specVersionHolder := LBStringValueHolder new.
-	self libnotify
+	(self libnotify
 		notifyGetServerInfoName: nameHolder
 		vendor: vendorHolder
 		version: versionHolder
-		specVersion: specVersionHolder.
+		specVersion: specVersionHolder)
+			ifFalse: [ LBFFIError signal: 'An error occurs while retrieving server info.' ].
 	serverName := nameHolder value.
 	vendorName := vendorHolder value.
 	version := versionHolder value.
