@@ -29,6 +29,7 @@ notification show.
 ### LBLibnotifyUser trait
 
 ### LBServerInfo
+#### Instance side
 | Message | Purpose |
 |:--------|:--------|
 | #refresh | Refresh server info. |
@@ -37,7 +38,13 @@ notification show.
 | #vendorName | Return the vendor name. |
 | #version | Return the server version. |
 
+#### Class side
+| Message | Purpose |
+|:--------|:--------|
+| #uniqueInstance | Return the unique instance of LBServerInfo |
+
 ### LBNotification
+#### Instance side
 | Message | Purpose |
 |:--------|:--------|
 | #appName: | Set the application name for the notification. **If not used, 'Pharo' is the application name.** |
@@ -52,6 +59,13 @@ notification show.
 | #timeout: | Set the timeout of the notification. **The parameter must be a Duration.** |
 | #updateSummary:message: | Update the notification. **It does not display the update automatically, #refresh must be send after the update.** |
 | #updateSummary:message:icon: | Update the notification. **It does not display the update automatically, #refresh must be send after the update.** |
+
+#### Class side
+| Message | Purpose |
+|:--------|:--------|
+| #serverInfo | Returns the unique instance of LBServerInfo refreshed. |
+| #summary:message: | Returns a new instance with the specified summary and message. |
+| #summary:message:icon: | Returns a new instance with the specified summary, message and icon. **The icon can be a FileReference or a String.** |
 
 
 ## Low level functions binding
