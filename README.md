@@ -99,14 +99,14 @@ Those marked as *deprecated* will not be implemented since they are deprecated i
 | notify_notification_set_urgency           | #notificationSet:urgency: |
 | notify_notification_set_icon_from_pixbuf  | *Deprecated* |
 | notify_notification_set_image_from_pixbuf | *Not supported yet* |
-| notify_notification_set_hint              | *Not supported yet* |
+| notify_notification_set_hint              | #notificationSet:hint:to: |
 | notify_notification_set_hint_int32        | *Deprecated* |
 | notify_notification_set_hint_uint32       | *Deprecated* |
 | notify_notification_set_hint_double       | *Deprecated* |
 | notify_notification_set_hint_string       | *Deprecated* |
 | notify_notification_set_hint_byte         | *Deprecated* |
 | notify_notification_set_hint_byte_array   | *Deprecated* |
-| notify_notification_clear_hints           | *Not supported yet* |
+| notify_notification_clear_hints           | #notificationClearHints: |
 | notify_notification_add_action            | *Not supported yet* |
 | notify_notification_clear_actions         | *Not supported yet* |
 | notify_notification_close                 | #notificationClose:error: |
