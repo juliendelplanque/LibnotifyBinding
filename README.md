@@ -79,8 +79,8 @@ It is used by **LBNotification** and **LBServerInfo**.
 - Integer
 - String
 
-### GVariant supported type, Pharo object associated and selector for conversion
-| GVariant type | Pharo object | #selector                     |
+### GVariant supported type, Pharo object associated and message for conversion
+| GVariant type | Pharo object | #message                      |
 |:--------------|:-------------|:------------------------------|
 | gboolean      | Boolean      | #asGVariant                   |
 | gchar         | Character    | #asGVariant                   |
