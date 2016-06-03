@@ -1,0 +1,3 @@
+converting
+asGVariant
+	^ self
