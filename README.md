@@ -54,9 +54,11 @@ It is used by **LBNotification** and **LBServerInfo**.
 | #beLow | Set the notification urgency to 'low'. |
 | #beNormal | Set the notification urgency to 'normal'. |
 | #category: | Set the notification category. |
+| #clearHints | Remove the hints previously set for the notification. |
 | #close | Close the notification. |
 | #defaultTimeout | Set the notification timeout to the default time. |
 | #neverTimeout | Set the notification to never timeout. |
+| #setHint:to: | Set the hint with the key given to the specified value. **The object given as value must implement #asGVariant (some object are already implementing it, see the list below)** |
 | #show | Show the notification. |
 | #timeout: | Set the timeout of the notification. **The parameter must be a Duration.** |
 | #updateSummary:message: | Update the notification. **It does not display the update automatically, #refresh must be send after the update.** |
@@ -69,6 +71,13 @@ It is used by **LBNotification** and **LBServerInfo**.
 | #summary:message: | Returns a new instance with the specified summary and message. |
 | #summary:message:icon: | Returns a new instance with the specified summary, message and icon. **The icon can be a FileReference or a String.** |
 
+## Objects implementing #asGVariant
+
+- Boolean
+- Character
+- Float
+- Integer
+- String
 
 ## Low level functions binding
 Here is a list of the libnotify functions and their equivalent in LBLibnotification object.
