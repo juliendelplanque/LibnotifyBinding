@@ -79,6 +79,20 @@ It is used by **LBNotification** and **LBServerInfo**.
 - Integer
 - String
 
+### GVariant supported type, Pharo object associated and selector for conversion
+| GVariant type | Pharo object | #selector                     |
+|:--------------|:-------------|:------------------------------|
+| gboolean      | Boolean      | #asGVariant                   |
+| gchar         | Character    | #asGVariant                   |
+| gdouble       | Float        | #asGVariant                   |
+| gint16        | Integer      | #asGVariantInt16              |
+| gint32        | Integer      | #asGVariantInt32              |
+| gint64        | Integer      | #asGVariantInt64, #asGVariant |
+| guint16       | Integer      | #asGVariantUInt16             |
+| guint32       | Integer      | #asGVariantUInt32             |
+| guint64       | Integer      | #asGVariantUInt64             |
+| gstring       | String       | #asGVariant                   |
+
 ## Low level functions binding
 Here is a list of the libnotify functions and their equivalent in LBLibnotification object.
 Those marked as *deprecated* will not be implemented since they are deprecated in libnotify specification.
