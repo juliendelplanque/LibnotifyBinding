@@ -1,0 +1,3 @@
+finalization
+finalizeResourceData: handle
+	LBLibnotify uniqueInstance gVariantUnref: handle

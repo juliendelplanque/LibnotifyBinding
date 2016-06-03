@@ -1,0 +1,14 @@
+{
+	"category" : "LibnotifyBinding-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/30/2016 20:14",
+	"instvars" : [
+		 ],
+	"name" : "LBGVariant",
+	"pools" : [
+		 ],
+	"super" : "FFIExternalObject",
+	"type" : "normal" }
