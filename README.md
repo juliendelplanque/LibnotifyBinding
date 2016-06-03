@@ -113,6 +113,7 @@ Those marked as *deprecated* will not be implemented since they are deprecated i
 | notify_notification_get_closed_reason     | *Not supported yet* |
 
 ## Some useful links for development
-- [Gnome documentation](https://developer.gnome.org/notification-spec)
+- [Libnotify documentation](https://developer.gnome.org/libnotify/)
+- [Notification specification](https://developer.gnome.org/notification-spec)
 - [Icon naming specification](https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html)
 - [Sound naming specification](http://0pointer.de/public/sound-naming-spec.html)
