@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfLibnotifyBinding",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfLibnotifyBinding",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
