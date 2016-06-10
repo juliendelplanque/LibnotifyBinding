@@ -6,12 +6,19 @@ It also has been updated to match the specification of [libnotify 0.7.6](https:/
 This project uses the Unified FFI API from [Pharo](http://pharo.org/) 5 images.
 
 ## Install
-Simply run this script:
+Install LibnotifyBinding from the [catalog](http://catalog.pharo.org/) browser or by running this script:
 ~~~
 Metacello new
     repository: 'github://JulienDelplanque/LibnotifyBinding/repository';
     baseline: 'LibnotifyBinding';
     load
+~~~
+
+### Use this project as dependency
+Simply add this code snippet to your baseline:
+~~~
+spec baseline: 'LibnotifyBinding' with: [
+    spec repository: 'github://juliendelplanque/LibnotifyBinding/repository' ].
 ~~~
 
 ## Dependency(ies)
