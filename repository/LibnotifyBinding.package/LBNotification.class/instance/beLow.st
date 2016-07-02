@@ -1,3 +1,3 @@
 accessing-urgency
 beLow
-	self setUrgency: self libnotify urgencyLow
+	self setUrgency: LBNotifyUrgencyEnumeration NOTIFY_URGENCY_LOW

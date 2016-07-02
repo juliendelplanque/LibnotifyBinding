@@ -1,3 +1,3 @@
 accessing-urgency
 beNormal
-	self setUrgency: self libnotify urgencyNormal
+	self setUrgency: LBNotifyUrgencyEnumeration NOTIFY_URGENCY_NORMAL

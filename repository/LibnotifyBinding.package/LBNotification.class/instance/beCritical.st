@@ -1,3 +1,3 @@
 accessing-urgency
 beCritical
-	self setUrgency: self libnotify urgencyCritical
+	self setUrgency: LBNotifyUrgencyEnumeration NOTIFY_URGENCY_CRITICAL

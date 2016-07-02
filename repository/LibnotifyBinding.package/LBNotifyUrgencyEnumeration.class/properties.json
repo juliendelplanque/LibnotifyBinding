@@ -1,0 +1,14 @@
+{
+	"category" : "LibnotifyBinding-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 7/2/2016 15:14",
+	"instvars" : [
+		 ],
+	"name" : "LBNotifyUrgencyEnumeration",
+	"pools" : [
+		 ],
+	"super" : "FFIExternalEnumeration",
+	"type" : "normal" }
